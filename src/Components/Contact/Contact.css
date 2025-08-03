@@ -1,0 +1,129 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
+}
+
+.title {
+  position: relative;
+}
+
+.title h1 {
+  padding: 0px 30px;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 150px;
+}
+
+.contact-section {
+  display: flex;
+  gap: 150px;
+}
+
+.left {
+  display: flex;
+  min-width: 500px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.left h1 {
+  font-size: 80px;
+  font-weight: 600;
+  background: linear-gradient(270deg, #df8908 80%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.left p {
+  max-width: 550px;
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: aliceblue;
+  font-size: 22px;
+}
+
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-detail img {
+  width: 30px;
+  height: 30px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+
+.right label {
+  color: aliceblue;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.right input {
+  border: none;
+  width: 600px;
+  height: 80px;
+  padding-left: 20px;
+  border-radius: 4px;
+  background: #32323c;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: outfit;
+}
+
+.right textarea {
+  border: none;
+  width: 600px;
+  height: 200px;
+  padding: 25px;
+  border-radius: 4px;
+  background: #32323c;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: outfit;
+}
+
+.right .submit {
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #df8908 -5.09%, #b415ff 100%);
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 20px 60px;
+  margin-bottom: 50px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.right .submit:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+  background: linear-gradient(270deg, #b415ff -5.09%, #df8908 100%);
+}

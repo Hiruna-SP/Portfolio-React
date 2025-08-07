@@ -7,7 +7,7 @@ import line from "../../assets/line.png";
 const Projects = () => {
   return (
     <div>
-      <div className="projects">
+      <div id="projects" className="projects">
         <div className="project-title">
           <h1>Latest Projects</h1>
           <img src={line} alt="line" />

@@ -8,7 +8,7 @@ import locationicon from "../../assets/location.png";
 const Contact = () => {
   return (
     <div>
-      <div className="contact">
+      <div id="contact" className="contact">
         <div className="title">
           <h1>Get in touch</h1>
           <img src={line} alt="line" />

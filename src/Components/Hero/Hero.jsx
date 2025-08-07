@@ -16,7 +16,11 @@ const Hero = () => {
         to impactful projects.
       </p>
       <div className="hero-action">
-        <div className="hero-connect">Connect with me</div>
+        <div className="hero-connect">
+          <AnchorLink href="#contact" className="anchor-link">
+            Connect with me
+          </AnchorLink>
+        </div>
 
         <div className="hero-resume">My resume</div>
       </div>

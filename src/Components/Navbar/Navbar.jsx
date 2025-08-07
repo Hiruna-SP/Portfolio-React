@@ -30,7 +30,11 @@ const Navbar = () => {
           </AnchorLink>
         </li>
       </ul>
-      <div className="nav-connect">Connect with me</div>
+      <div className="nav-connect">
+        <AnchorLink href="#contact" className="anchor-link">
+          Connect with me
+        </AnchorLink>
+      </div>
     </div>
   );
 };

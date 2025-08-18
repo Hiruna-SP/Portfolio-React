@@ -103,3 +103,46 @@
     border-radius: 40px;
   }
 }
+
+@media (max-width: 400px) {
+  .hero img {
+    margin-top: 60px;
+    width: 220px;
+    height: 220px;
+  }
+
+  .hero h1 {
+    margin-top: 20px;
+    width: 75%;
+    font-size: 33px;
+    line-height: 42px;
+  }
+
+  .hero p {
+    width: 80%;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 8px 0px;
+  }
+
+  .hero-action {
+    flex-direction: column;
+    gap: 15px;
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .hero-connect {
+    width: 100%;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 35px;
+  }
+
+  .hero-resume {
+    width: 100%;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 35px;
+  }
+}

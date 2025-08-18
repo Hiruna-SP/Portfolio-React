@@ -98,3 +98,11 @@
     cursor: pointer;
   }
 }
+
+@media(max-width: 400px){
+  .project-title img{
+    width: 90px;
+    margin-right: 40px;
+    bottom: 0px;
+  }
+}

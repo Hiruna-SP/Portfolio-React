@@ -66,6 +66,7 @@
   transform: scale(1.05);
 }
 
+
 @media (max-width: 768px) {
   .hero img {
     margin-top: 100px;
